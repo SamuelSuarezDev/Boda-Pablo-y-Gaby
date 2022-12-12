@@ -1,7 +1,5 @@
-import TemporaryDrawer from "../../components/Drawer/Drawer";
-
 export const Home = () => {
-  return <TemporaryDrawer />;
+  return <>Home</>;
 };
 
 export default Home;
