@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.container {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #00052b88;
+  align-items: center;
+  text-align: center;
+}
+.subtitle {
+  font-size: 22px;
+  width: 80%;
+}
+.title-names {
+  font-size: 75px;
+}
+.header-info {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.container-images {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  border-radius: 0 0 10px 10px;
+}
+.background {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
+.one {
+  animation-iteration-count: infinite;
+  animation-name: one;
+  animation-duration: 10s;
+}
+.two {
+  animation-iteration-count: infinite;
+  animation-name: two;
+  animation-duration: 10s;
+}
+.three {
+  animation-iteration-count: infinite;
+  animation-name: three;
+  animation-duration: 10s;
+}
+@keyframes three {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes two {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes one {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.flowers {
+  width: 95%;
+  margin: 0;
+  height: auto;
+  position: absolute;
+  top: 93%;
+}

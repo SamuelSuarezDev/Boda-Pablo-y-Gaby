@@ -1,6 +1,5 @@
-import { FC } from "react";
 import { Home } from "./Home";
 
-export const HomeLoad: FC = () => {
+export const HomeLoad = () => {
   return <Home />;
 };
