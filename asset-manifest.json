@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Boda-Pablo-y-Gaby/static/css/main.89dce261.css",
-    "main.js": "/Boda-Pablo-y-Gaby/static/js/main.bfcb0179.js",
+    "main.js": "/Boda-Pablo-y-Gaby/static/js/main.3f4bd5a2.js",
     "static/js/787.f085e79f.chunk.js": "/Boda-Pablo-y-Gaby/static/js/787.f085e79f.chunk.js",
     "index.html": "/Boda-Pablo-y-Gaby/index.html",
     "main.89dce261.css.map": "/Boda-Pablo-y-Gaby/static/css/main.89dce261.css.map",
-    "main.bfcb0179.js.map": "/Boda-Pablo-y-Gaby/static/js/main.bfcb0179.js.map",
+    "main.3f4bd5a2.js.map": "/Boda-Pablo-y-Gaby/static/js/main.3f4bd5a2.js.map",
     "787.f085e79f.chunk.js.map": "/Boda-Pablo-y-Gaby/static/js/787.f085e79f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89dce261.css",
-    "static/js/main.bfcb0179.js"
+    "static/js/main.3f4bd5a2.js"
   ]
 }
