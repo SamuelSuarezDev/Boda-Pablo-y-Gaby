@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bodaq-app/static/css/main.89dce261.css",
-    "main.js": "/bodaq-app/static/js/main.097cfa3e.js",
-    "static/js/787.c1d954da.chunk.js": "/bodaq-app/static/js/787.c1d954da.chunk.js",
-    "index.html": "/bodaq-app/index.html",
-    "main.89dce261.css.map": "/bodaq-app/static/css/main.89dce261.css.map",
-    "main.097cfa3e.js.map": "/bodaq-app/static/js/main.097cfa3e.js.map",
-    "787.c1d954da.chunk.js.map": "/bodaq-app/static/js/787.c1d954da.chunk.js.map"
+    "main.css": "/Boda-Pablo-y-Gaby/static/css/main.89dce261.css",
+    "main.js": "/Boda-Pablo-y-Gaby/static/js/main.bfcb0179.js",
+    "static/js/787.f085e79f.chunk.js": "/Boda-Pablo-y-Gaby/static/js/787.f085e79f.chunk.js",
+    "index.html": "/Boda-Pablo-y-Gaby/index.html",
+    "main.89dce261.css.map": "/Boda-Pablo-y-Gaby/static/css/main.89dce261.css.map",
+    "main.bfcb0179.js.map": "/Boda-Pablo-y-Gaby/static/js/main.bfcb0179.js.map",
+    "787.f085e79f.chunk.js.map": "/Boda-Pablo-y-Gaby/static/js/787.f085e79f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89dce261.css",
-    "static/js/main.097cfa3e.js"
+    "static/js/main.bfcb0179.js"
   ]
 }
