@@ -1,8 +1,8 @@
 {
-  "name": "bodaq-app",
+  "name": "Boda-Pablo-y-Gaby",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://SamuelSuarezDev.github.io/bodaq-app",
+  "homepage": "https://SamuelSuarezDev.github.io/Boda-Pablo-y-Gaby",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
