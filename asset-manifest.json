@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.89dce261.css",
-    "main.js": "/static/js/main.965de252.js",
-    "static/js/787.c1d954da.chunk.js": "/static/js/787.c1d954da.chunk.js",
-    "index.html": "/index.html",
-    "main.89dce261.css.map": "/static/css/main.89dce261.css.map",
-    "main.965de252.js.map": "/static/js/main.965de252.js.map",
-    "787.c1d954da.chunk.js.map": "/static/js/787.c1d954da.chunk.js.map"
+    "main.css": "/bodaq-app/static/css/main.89dce261.css",
+    "main.js": "/bodaq-app/static/js/main.1eb72a4b.js",
+    "static/js/787.c1d954da.chunk.js": "/bodaq-app/static/js/787.c1d954da.chunk.js",
+    "index.html": "/bodaq-app/index.html",
+    "main.89dce261.css.map": "/bodaq-app/static/css/main.89dce261.css.map",
+    "main.1eb72a4b.js.map": "/bodaq-app/static/js/main.1eb72a4b.js.map",
+    "787.c1d954da.chunk.js.map": "/bodaq-app/static/js/787.c1d954da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89dce261.css",
-    "static/js/main.965de252.js"
+    "static/js/main.1eb72a4b.js"
   ]
 }
