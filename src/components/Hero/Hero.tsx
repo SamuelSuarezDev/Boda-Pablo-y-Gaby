@@ -1,5 +1,6 @@
 import "./styled.css";
 import { useState, useRef } from "react";
+import { Flowers } from "../../assets";
 function Hero() {
   const [timerDays, setTimerDays] = useState(0);
   const [timerHours, setTimerHours] = useState(0);
@@ -80,11 +81,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <img
-        className="flowers"
-        src="https://i.postimg.cc/jdnwkZ2T/Blue-Violet-Watercolour-Flowers-Wedding-Invitation-1.png"
-        alt="flores"
-      />
+      <img className="flowers" src={Flowers} alt="flores" />
     </>
   );
 }

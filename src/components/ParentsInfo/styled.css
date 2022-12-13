@@ -1,0 +1,16 @@
+.container-parents {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+.active {
+  border-bottom: 1px solid;
+}
