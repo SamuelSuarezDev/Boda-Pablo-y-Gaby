@@ -1,6 +1,9 @@
 import Hero from "../../components/Hero/Hero";
 import "./styled.css";
-import { Smoke, Divisor } from "../../assets";
+import { Player } from "../../components/Player/Player";
+import Divisor from "../../assets/Divisor.png";
+import Smoke from "../../assets/Smoke.png";
+import { Moments } from "../../components/Moments/Moments";
 import CardBoyfriend from "../../components/CardBoyfriend/CardBoyfriend";
 import { ParentsInfo } from "../../components/ParentsInfo/ParentsInfo";
 export const Home = () => {
@@ -10,6 +13,7 @@ export const Home = () => {
       <div className="song-container">
         <p className="title">Nuestra canción</p>
         <p className="subtitle">Dale play a nuestra cancion</p>
+        <Player />
       </div>
       <div className="history">
         <img className="humo" src={Smoke} alt="" />
@@ -39,6 +43,10 @@ export const Home = () => {
         <img src={Divisor} alt="" />
       </div>
       <ParentsInfo />
+      <div className="divider">
+        <img src={Divisor} alt="" />
+      </div>
+      <Moments />
     </>
   );
 };

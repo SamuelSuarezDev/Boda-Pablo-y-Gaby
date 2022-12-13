@@ -1,6 +1,6 @@
 import "./styled.css";
 import { useState, useRef } from "react";
-import { Flowers } from "../../assets";
+import Flowers from "../../assets/Flowers.png";
 function Hero() {
   const [timerDays, setTimerDays] = useState(0);
   const [timerHours, setTimerHours] = useState(0);
