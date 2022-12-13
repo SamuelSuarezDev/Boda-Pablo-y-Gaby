@@ -1,0 +1,23 @@
+.versicle {
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  margin-top: 30%;
+}
+.versicle img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(60%);
+}
+.versicle p {
+  width: 80%;
+  font-size: 18px;
+}

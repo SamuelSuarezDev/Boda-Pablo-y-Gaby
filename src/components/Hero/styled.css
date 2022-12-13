@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: white;
 }
 .container {
   color: white;
@@ -13,10 +12,6 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-}
-.subtitle {
-  font-size: 22px;
-  width: 80%;
 }
 .title-names {
   font-size: 40px;
@@ -120,16 +115,9 @@ body {
     opacity: 1;
   }
 }
-.flowers {
+.flower {
   width: 100%;
   margin-top: -45px;
   z-index: 1;
   position: relative;
-}
-.divider {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 0 20px 0;
 }

@@ -1,0 +1,17 @@
+.content-dress {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-dress .title {
+  margin: 40px;
+}
+.reserv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
