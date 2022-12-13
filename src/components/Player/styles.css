@@ -12,6 +12,10 @@
     margin-top: 7px;
 }
 .progress{
+<<<<<<< HEAD
     background-color: red;
+=======
+    background-color: aqua;
+>>>>>>> 1c24baf (player component)
     border: transparent;
 }
