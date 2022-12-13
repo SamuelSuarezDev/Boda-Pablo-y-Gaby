@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import "./styled.css";
 import CardParent from "./Components/CardParent";
+import Flores from "../../assets/Flores.png";
+import Smoke from "../../assets/Smoke.png";
 
 export const ParentsInfo = () => {
   const [parentState, setParentState] = useState(1);
   return (
     <div className="container-parents">
+      <p className="title">Con La Bendición de Nuestros Padres</p>
       {parentState == 1 && (
         <>
           <div className="menu-content">
@@ -68,6 +71,8 @@ export const ParentsInfo = () => {
           />
         </>
       )}
+      <img className="humo" src={Smoke} alt="" />
+      <img className="flowers" src={Flores} alt="" />
     </div>
   );
 };

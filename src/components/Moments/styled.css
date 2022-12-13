@@ -1,0 +1,21 @@
+.moments-content {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.moments-content img {
+  width: 95%;
+  height: 411px;
+  object-fit: cover;
+  padding: 10px;
+}
+.image-content {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  width: 100%;
+}
