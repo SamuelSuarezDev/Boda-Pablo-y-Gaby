@@ -2,11 +2,12 @@
   width: 100vw;
   height: auto;
   display: flex;
+  text-align: center;
   flex-direction: column;
   align-items: center;
 }
 .content-dress .title {
-  margin: 40px;
+  margin: 20px 0 40px;
 }
 .reserv {
   width: 100%;
@@ -14,4 +15,7 @@
   flex-direction: column;
   align-items: center;
   margin: 40px 0;
+}
+.reserv img {
+  width: 85%;
 }

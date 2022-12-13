@@ -1,6 +1,6 @@
 .content-ubication {
   margin-top: 20%;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,10 +10,6 @@
 }
 .content-ubication img {
   width: 100%;
-  border-radius: 30px;
-  height: 300px;
-}
-.content-ubication p {
-  width: 80%;
-  margin: 10px;
+  height: 305px;
+  border-radius: 20px;
 }

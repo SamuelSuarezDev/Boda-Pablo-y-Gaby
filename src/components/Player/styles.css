@@ -1,17 +1,21 @@
-.track-info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.track-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.play,.pause{
-    border: transparent;
-    background: transparent;
-    width: 25px;
-    height: 25px;
-    margin-top: 7px;
+.play,
+.pause {
+  border: transparent;
+  position: absolute;
+  background: transparent;
+  margin-top: -10px;
+  display: flex;
+  align-items: start;
+  left: 15%;
 }
-.progress{
-    background-color: red;
-    border: transparent;
+.progress {
+  background-color: red;
+  border: transparent;
+  margin-left: 30px;
 }

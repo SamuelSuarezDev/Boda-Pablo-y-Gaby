@@ -12,3 +12,7 @@ button {
 button p {
   width: 100px;
 }
+button img {
+  width: 25px;
+  height: 25px;
+}
