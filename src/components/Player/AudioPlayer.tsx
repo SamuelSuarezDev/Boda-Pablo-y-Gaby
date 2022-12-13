@@ -91,4 +91,4 @@ const AudioPlayer = () => {
   );
 };
 
-export default AudioPlayer;
+export default AudioPlayer
