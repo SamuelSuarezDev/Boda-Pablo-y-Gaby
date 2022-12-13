@@ -12,6 +12,7 @@ body {
   background-color: #00052b88;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 .subtitle {
   font-size: 22px;
@@ -120,9 +121,8 @@ body {
   }
 }
 .flowers {
-  width: 95%;
-  margin: 0;
-  height: auto;
-  position: absolute;
-  top: 93%;
+  width: 100%;
+  margin-top: -45px;
+  z-index: 1;
+  position: relative;
 }
