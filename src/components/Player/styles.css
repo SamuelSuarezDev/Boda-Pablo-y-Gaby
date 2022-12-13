@@ -1,0 +1,17 @@
+.track-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play,.pause{
+    border: transparent;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    margin-top: 7px;
+}
+.progress{
+    background-color: aqua;
+    border: transparent;
+}
