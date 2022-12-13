@@ -7,11 +7,15 @@
   text-align: center;
   margin-bottom: 10%;
 }
-.moments-content img {
-  width: 95%;
+.moments-content .image-gallery {
+  width: 80%;
   height: 411px;
   object-fit: cover;
   padding: 10px;
+  border-radius: 17px;
+}
+.bottom {
+  margin-top: 400px;
 }
 .image-content {
   display: flex;

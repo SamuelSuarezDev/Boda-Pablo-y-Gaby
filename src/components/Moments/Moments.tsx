@@ -1,4 +1,5 @@
 import React from "react";
+import Smoke from "../../assets/Smoke.png";
 import imageOne from "../../assets/image00001.jpeg";
 import imageTwo from "../../assets/image00002.jpeg";
 import imageThree from "../../assets/image00003.jpeg";
@@ -12,15 +13,24 @@ import imageTen from "../../assets/image00010.jpeg";
 import "./styled.css";
 export const Moments = () => {
   return (
-    <div className="moments-content">
-      <p className="title">Nuestros Momentos Juntos</p>
-      <div className="image-content">
-          <img src={imageOne} alt="" />
-          <img src={imageTwo} alt="" />
-          <img src={imageTwo} alt="" />
-          <img src={imageTwo} alt="" />
-          <img src={imageTwo} alt="" />
+    <>
+      <img className="humo" src={Smoke} alt="" />
+      <div className="moments-content">
+        <p className="title">Nuestros Momentos Juntos</p>
+        <div className="image-content">
+          <img className="image-gallery" src={imageOne} alt="" />
+          <img className="image-gallery" src={imageTwo} alt="" />
+          <img className="image-gallery" src={imageThree} alt="" />
+          <img className="image-gallery" src={imageFour} alt="" />
+          <img className="image-gallery" src={imageFive} alt="" />
+          <img className="image-gallery" src={imageSix} alt="" />
+          <img className="image-gallery" src={imageSeven} alt="" />
+          <img className="image-gallery" src={imageEight} alt="" />
+          <img className="image-gallery" src={imageNine} alt="" />
+          <img className="image-gallery" src={imageTen} alt="" />
+        </div>
+        <img className="humo left bottom" src={Smoke} alt="" />
       </div>
-    </div>
+    </>
   );
 };

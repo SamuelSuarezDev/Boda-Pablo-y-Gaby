@@ -81,7 +81,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <img className="flowers" src={Flowers} alt="flores" />
+      <img className="flower" src={Flowers} alt="flores" />
     </>
   );
 }
