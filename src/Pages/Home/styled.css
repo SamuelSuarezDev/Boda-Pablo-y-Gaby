@@ -1,0 +1,50 @@
+body {
+  background-color: #e9f2ff;
+  color: #307aea;
+}
+.song-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.left {
+  left: 0;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+.history {
+  width: 100vw;
+  height: 30vh;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.humo {
+  position: absolute;
+  right: 0;
+  margin-bottom: -100px;
+  z-index: -1;
+}
+.title {
+  font-size: 36px;
+  margin: 0;
+}
+.subtitle {
+  font-size: 14px;
+  margin: 0;
+}
+.cards-container {
+  width: 100vw;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
