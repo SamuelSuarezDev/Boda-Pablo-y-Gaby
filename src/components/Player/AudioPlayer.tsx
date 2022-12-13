@@ -23,42 +23,20 @@ const AudioPlayer = () => {
     -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(${currentPercentage}, #fff), color-stop(${currentPercentage}, #777))
   `;
 
-  const startTimer = (): any => {
+  const startTimer = ():any => {
     // Clear any timers already running
     clearInterval(intervalRef.current);
-    // @ts-ignore
+// @ts-ignore  
     intervalRef.current = setInterval(() => {
-      // @ts-ignore
-      setTrackProgress(audioRef.current.currentTime);
-      // @ts-ignore
+        setTrackProgress(audioRef.current.currentTime);
+        // @ts-ignore  
     }, [1000]);
   };
 
-  const onScrub = (value: any) => {
+  const onScrub = (value:any) => {
     // Clear any timers already running
     clearInterval(intervalRef.current);
-    // @ts-ignore
     audioRef.current.currentTime = value;
-    // @ts-ignore
-  }
-  const startTimer = (): any => {
-    // Clear any timers already running
-    clearInterval(intervalRef.current);
-    // @ts-ignore
-    intervalRef.current = setInterval(() => {
-      // @ts-ignore
-      setTrackProgress(audioRef.current.currentTime);
-      // @ts-ignore
-    }, [1000]);
-  };
-
-  const onScrub = (value: any) => {
-    // Clear any timers already running
-    clearInterval(intervalRef.current);
-    // @ts-ignore
-    audioRef.current.currentTime = value;
-
-    // @ts-ignore
     setTrackProgress(audioRef.current.currentTime);
   };
 
@@ -72,11 +50,9 @@ const AudioPlayer = () => {
 
   useEffect(() => {
     if (isPlaying) {
-      // @ts-ignore
       audioRef.current.play();
       startTimer();
     } else {
-      // @ts-ignore
       audioRef.current.pause();
     }
   }, [isPlaying]);
@@ -93,8 +69,6 @@ const AudioPlayer = () => {
   return (
     <div className="audio-player">
       <div className="track-info">
-        <AudioControls isPlaying={isPlaying} onPlayPauseClick={setIsPlaying} />
-
         <AudioControls
           isPlaying={isPlaying}
           onPlayPauseClick={setIsPlaying}
