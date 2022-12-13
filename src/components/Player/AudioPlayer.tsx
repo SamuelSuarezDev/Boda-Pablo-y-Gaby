@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import AudioControls from "./AudioControls";
 import "./styles.css";
-// @ts-ignore  
+// @ts-ignore
 import perfect from "../../assets/audio.mp3";
 
 const AudioPlayer = () => {
@@ -13,7 +13,6 @@ const AudioPlayer = () => {
   const intervalRef = useRef();
 
   // Destructure for conciseness
-
   const { duration }: any = audioRef.current;
 
   const currentPercentage = duration
@@ -23,20 +22,23 @@ const AudioPlayer = () => {
     -webkit-gradient(linear, 0% 0%, 100% 0%, color-stop(${currentPercentage}, #fff), color-stop(${currentPercentage}, #777))
   `;
 
-  const startTimer = ():any => {
+  const startTimer = (): any => {
     // Clear any timers already running
     clearInterval(intervalRef.current);
-// @ts-ignore  
+    // @ts-ignore
     intervalRef.current = setInterval(() => {
-        setTrackProgress(audioRef.current.currentTime);
-        // @ts-ignore  
+      // @ts-ignore
+      setTrackProgress(audioRef.current.currentTime);
+      // @ts-ignore
     }, [1000]);
   };
 
-  const onScrub = (value:any) => {
+  const onScrub = (value: any) => {
     // Clear any timers already running
     clearInterval(intervalRef.current);
+    // @ts-ignore
     audioRef.current.currentTime = value;
+    // @ts-ignore
     setTrackProgress(audioRef.current.currentTime);
   };
 
@@ -50,9 +52,11 @@ const AudioPlayer = () => {
 
   useEffect(() => {
     if (isPlaying) {
+      // @ts-ignore
       audioRef.current.play();
       startTimer();
     } else {
+      // @ts-ignore
       audioRef.current.pause();
     }
   }, [isPlaying]);
@@ -69,10 +73,7 @@ const AudioPlayer = () => {
   return (
     <div className="audio-player">
       <div className="track-info">
-        <AudioControls
-          isPlaying={isPlaying}
-          onPlayPauseClick={setIsPlaying}
-        />
+        <AudioControls isPlaying={isPlaying} onPlayPauseClick={setIsPlaying} />
         <input
           type="range"
           value={trackProgress}
@@ -84,7 +85,6 @@ const AudioPlayer = () => {
           onMouseUp={onScrubEnd}
           onKeyUp={onScrubEnd}
           style={{ background: trackStyling, width: "80%", marginLeft: "10px", border: "1px solid red" }}
-
         />
       </div>
     </div>
