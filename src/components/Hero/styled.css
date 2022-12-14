@@ -14,11 +14,12 @@ body {
   position: relative;
 }
 .title-names {
-  font-size: 40px;
+  font-size: 75px;
+  font-family: "Tangerine", cursive;
 }
 .header-info {
   width: 100vw;
-  height: 95vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -120,4 +121,29 @@ body {
   margin-top: -45px;
   z-index: 1;
   position: relative;
+}
+.date p:nth-child(1) {
+  color: #cecece;
+  font-size: 36px;
+  margin-bottom: -15px;
+  font-family: "Inter", sans-serif;
+}
+.date {
+  padding: 0 15px;
+}
+.date p:nth-child(2) {
+  color: #cecece;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+.invite {
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+}
+.day {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
 }

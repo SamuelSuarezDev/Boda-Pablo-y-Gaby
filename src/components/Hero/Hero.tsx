@@ -30,18 +30,18 @@ function Hero() {
       <div className="container">
         <div id="image" className="container-images">
           <img
-            src="https://i.postimg.cc/15LcYx3y/Whats-App-Image-2022-12-02-at-10-58-12-AM-1.jpg"
+            src="https://i.postimg.cc/Zq9rP0bH/Whats-App-Image-2022-12-02-at-10-58-11-AM-1.jpg"
             alt=""
             className="background one"
           />
 
           <img
-            src="https://i.postimg.cc/yd87qb8N/Whats-App-Image-2022-12-02-at-10-58-12-AM-3.jpg"
+            src="https://i.postimg.cc/nhS4QqJM/Whats-App-Image-2022-12-02-at-10-58-11-AM.jpg"
             alt=""
             className="background two"
           />
           <img
-            src="https://i.postimg.cc/vmQs9N9v/Whats-App-Image-2022-12-02-at-10-58-13-AM.jpg"
+            src="https://i.postimg.cc/fbJsQQvj/Whats-App-Image-2022-12-02-at-10-58-12-AM.jpg"
             alt=""
             className="background three"
           />
@@ -51,7 +51,7 @@ function Hero() {
             Pablo <br /> & <br />
             Gabriela
           </p>
-          <p className="subtitle">
+          <p className="subtitle invite">
             Te invitamos a compartir la alegria de unir nuestras vidas
           </p>
           <p className="day">Para este día faltan:</p>
@@ -59,24 +59,24 @@ function Hero() {
             style={{
               width: "100%",
               display: "flex",
-              justifyContent: "space-around",
+              justifyContent: "center",
             }}
           >
-            <div>
+            <div className="date">
               <p>{timerDays}</p>
-              <span>Días</span>
+              <p>Días</p>
             </div>
-            <div>
+            <div className="date">
               <p>{timerHours}</p>
-              <span>Horas</span>
+              <p>Horas</p>
             </div>
-            <div>
+            <div className="date">
               <p>{timerMinutes}</p>
-              <span>Minutos</span>
+              <p>Minutos</p>
             </div>
-            <div>
+            <div className="date">
               <p>{timerSeconds}</p>
-              <span>Segundos</span>
+              <p>Segundos</p>
             </div>
           </div>
         </div>

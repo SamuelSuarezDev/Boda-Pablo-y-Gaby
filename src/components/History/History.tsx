@@ -4,7 +4,7 @@ import Smoke from "../../assets/Smoke.png";
 export const History = () => {
   return (
     <div className="history">
-      <img className="humo" src={Smoke} alt="" />
+      <img className="humo" style={{ marginTop: "50%" }} src={Smoke} alt="" />
       <p className="title">Nuestra historia</p>
       <p className="subtitle">
         Éramos niños cuando nos enamoramos, sín saber lo que era. ¡Quién diría

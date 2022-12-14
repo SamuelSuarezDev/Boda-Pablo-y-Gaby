@@ -10,10 +10,16 @@ export const Ubication = ({ iconButton }: any) => {
   };
   return (
     <div className="content-ubication">
-      <p className="title">Ubicación</p>
+      <p style={{ margin: "0 0 30px" }} className="title">
+        Ubicación
+      </p>
       <img src={Lugar} alt="" />
-      <p className="subtitle">Hacienda Alex Rodríguez</p>
-      <p>Vereda Canelon, Via Puente Peralta #6 - 238, Cajicá, Cundinamarca</p>
+      <p style={{ margin: "10px 0 5px" }} className="title site">
+        Hacienda Alex Rodríguez
+      </p>
+      <p style={{ margin: "0 0 15px", width: "80%" }}>
+        Vereda Canelon, Via Puente Peralta #6 - 238, Cajicá, Cundinamarca
+      </p>
       <Button text="Ver Ubicación" onClick={maps} icon={iconButton} />
     </div>
   );

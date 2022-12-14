@@ -9,7 +9,7 @@ body {
   height: auto;
   flex-direction: column;
   margin-top: -50px;
-  margin-bottom: 25px;
+  margin-bottom: 60px;
   align-items: center;
   overflow-x: hidden;
   text-align: center;
@@ -38,7 +38,6 @@ body {
 .history {
   width: 100vw;
   height: 30vh;
-  margin-top: 5px;
   margin-bottom: 40px;
   text-align: center;
   display: flex;
@@ -53,9 +52,12 @@ body {
   z-index: -1;
 }
 .title {
-  font-size: 36px;
+  font-size: 50px;
   margin: 0;
-  width: 90%;
+  color: #0e4caa;
+  font-weight: 400;
+  width: 80%;
+  font-family: "Tangerine", cursive;
   text-align: center;
 }
 .subtitle {
@@ -74,7 +76,7 @@ body {
   width: 100vw;
   display: flex;
   justify-content: center;
-  margin: 40px 0;
+  margin: 0 0 40px;
 }
 .section {
   width: 100%;
@@ -92,4 +94,8 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+}
+.credits {
+  font-size: 20px;
 }

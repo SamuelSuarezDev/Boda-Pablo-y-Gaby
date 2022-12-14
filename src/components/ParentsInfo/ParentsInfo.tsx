@@ -28,6 +28,7 @@ export const ParentsInfo = () => {
                   setParentState(2);
                 }
               }}
+              className="inactive"
             >
               De la Novia
             </p>
@@ -48,6 +49,7 @@ export const ParentsInfo = () => {
                   setParentState(1);
                 }
               }}
+              className="inactive"
             >
               Del novio
             </p>
@@ -72,7 +74,12 @@ export const ParentsInfo = () => {
         </>
       )}
       <img className="humo" src={Smoke} alt="" />
-      <img className="flowers" src={Flores} alt="" />
+      <img
+        className="flowers"
+        src={Flores}
+        style={{ marginTop: "15%" }}
+        alt=""
+      />
     </div>
   );
 };

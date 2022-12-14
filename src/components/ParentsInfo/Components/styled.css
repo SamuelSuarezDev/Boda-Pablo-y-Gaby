@@ -21,7 +21,13 @@
   height: 282px;
   border-radius: 22px;
 }
-.parent p {
-  margin: 10px;
-  text-align: center;
+.phrase {
+  margin: 0;
+  width: 85%;
+}
+.name {
+  font-family: "Tangerine", cursive;
+  height: auto;
+  margin: 10px 0 0;
+  font-size: 36px;
 }

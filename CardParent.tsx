@@ -1,5 +1,5 @@
 import React from "react";
-import { CardParentProps } from "./types";
+import { CardParentProps } from "./src/components/ParentsInfo/Components/types";
 import "./styled.css";
 
 const CardParent = ({ image, names, phrase }: CardParentProps) => {

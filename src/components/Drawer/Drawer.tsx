@@ -43,9 +43,9 @@ export default function TemporaryDrawer({
       message: values,
       name: userConfig.displayName,
       photo: userConfig.photoURL,
-      visible: false
+      visible: true,
     });
-    setShowDrawer(!open)
+    setShowDrawer(!open);
   };
 
   return (
@@ -63,7 +63,13 @@ export default function TemporaryDrawer({
             padding: "10px",
           }}
         >
-          <Button color="error" onClick={() => {logOut() ; setShowDrawer(!open)}}>
+          <Button
+            color="error"
+            onClick={() => {
+              logOut();
+              setShowDrawer(!open);
+            }}
+          >
             Cerrar sesión
           </Button>
           <Button onClick={() => setShowDrawer(!open)}>x</Button>
