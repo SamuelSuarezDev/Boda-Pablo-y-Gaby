@@ -22,7 +22,10 @@ export const DressCode = () => {
       <div className="reserv">
         <p className="title">Colores reservados</p>
         <img src={Colors} alt="" />
-        <p className="subtitle">Se reserva la gama de azules y blancos</p>
+        <p className="subtitle">
+          Se reserva <span className="sub">TODA</span> la gama de azules y
+          blancos
+        </p>
       </div>
       <Divider />
     </div>

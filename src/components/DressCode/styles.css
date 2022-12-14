@@ -19,3 +19,8 @@
 .reserv img {
   width: 85%;
 }
+.sub {
+  text-decoration: underline;
+  margin: 5px;
+  font-size: 20px;
+}
