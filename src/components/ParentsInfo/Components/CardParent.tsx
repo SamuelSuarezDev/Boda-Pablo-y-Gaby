@@ -5,7 +5,7 @@ import "./styled.css";
 const CardParent = ({ image, names, phrase }: CardParentProps) => {
   return (
     <div className="parent">
-      <img src={image} alt="" />
+      <img className="image-parents" src={image} alt="" />
       <p className="name">{names}</p>
       <p className="phrase">{phrase}</p>
     </div>

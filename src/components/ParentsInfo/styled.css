@@ -6,6 +6,19 @@
   align-items: center;
   text-align: center;
 }
+.voltear img:nth-child(1) {
+  width: 302px;
+  transform: rotate(-90deg);
+  object-fit: cover;
+  height: 90vw;
+  border-radius: 22px;
+}
+.voltear {
+  width: 100%;
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+}
 .menu-content {
   width: 100%;
   display: flex;
