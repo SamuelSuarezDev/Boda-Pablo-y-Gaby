@@ -24,7 +24,7 @@ export const Home = () => {
   const confirmButton = () => {
     // eslint-disable-next-line no-restricted-globals
     location.href =
-      "https://api.whatsapp.com/send?phone=+573126340605&text=Hola me gustaría confirmar mi asistencia, mi nombre es {nombre}";
+      "https://api.whatsapp.com/send?phone=+573058157722&text=Hola me gustaría confirmar mi asistencia, mi nombre es {nombre}";
   };
   return (
     <>
@@ -36,7 +36,7 @@ export const Home = () => {
       <ParentsInfo />
       <div
         style={{
-          margin: "20% 0 0",
+          margin: "12% 0 0",
           width: "100%",
           display: "flex",
           justifyContent: "center",
