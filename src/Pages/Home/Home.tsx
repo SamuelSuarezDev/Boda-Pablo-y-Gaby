@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-globals */
 import "./styled.css";
 
 import Smoke from "../../assets/Smoke.png";
@@ -28,82 +29,98 @@ export const Home = () => {
   };
   return (
     <>
-      <Hero />
-      <SongContainer />
-      <History />
-      <ContainerCards />
-      <Divider />
-      <ParentsInfo />
-      <div
-        style={{
-          margin: "12% 0 0",
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Divider />
-      </div>
-      <Moments />
-      <Versicle />
-      <Date />
-      <Ubication iconButton={<Location />} />
-      <div
-        style={{
-          margin: "15% 0 0",
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <Divider />
-      </div>
-      <DressCode />
-      <SectionAction
-        title="Asistencia"
-        text="Para nosotros es muy importante contar con tu compañia."
-        buttonText="Confirmar"
-        iconButton={<Chat />}
-        button={true}
-        onClick={confirmButton}
-        smoke
-      />
-      <div
-        style={{
-          width: "100%",
-          textAlign: "center",
-          margin: "0",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-        }}
-      >
-        <p
+      {innerWidth < 700 ? (
+        <>
+          <Hero />
+          <SongContainer />
+          <History />
+          <ContainerCards />
+          <Divider />
+          <ParentsInfo />
+          <div
+            style={{
+              margin: "12% 0 0",
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Divider />
+          </div>
+          <Moments />
+          <Versicle />
+          <Date />
+          <Ubication iconButton={<Location />} />
+          <div
+            style={{
+              margin: "15% 0 0",
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <Divider />
+          </div>
+          <DressCode />
+          <SectionAction
+            title="Asistencia"
+            text="Para nosotros es muy importante contar con tu compañia."
+            buttonText="Confirmar"
+            iconButton={<Chat />}
+            button={true}
+            onClick={confirmButton}
+            smoke
+          />
+          <div
+            style={{
+              width: "100%",
+              textAlign: "center",
+              margin: "0",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <p
+              style={{
+                width: "100%",
+                fontFamily: " Tangerine, cursive",
+                fontSize: "36px",
+                margin: "40px 0 0",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Mail width={"30px"} height={"25px"} />
+              <span>Lluvia de sobres</span>
+            </p>
+            <img
+              src={Flores}
+              alt=""
+              style={{ width: "100px", transform: "rotate(70deg)" }}
+            />
+          </div>
+          <footer>
+            <p className="title credits">Created by SamuelSuarezDev</p>
+          </footer>
+        </>
+      ) : (
+        <div
           style={{
             width: "100%",
-            fontFamily: " Tangerine, cursive",
-            fontSize: "36px",
-            margin: "40px 0 0",
+            height: "100vh",
             display: "flex",
-            alignItems: "center",
             justifyContent: "center",
+            alignItems: "center",
           }}
         >
-          <Mail width={"30px"} height={"25px"} />
-          <span>Lluvia de sobres</span>
-        </p>
-        <img
-          src={Flores}
-          alt=""
-          style={{ width: "100px", transform: "rotate(70deg)" }}
-        />
-      </div>
-      <footer>
-        <p className="title credits">Created by SamuelSuarezDev</p>
-      </footer>
+          <p className="title">Página exclusiva para dispositivos móbiles</p>
+        </div>
+      )}
     </>
   );
 };
