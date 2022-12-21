@@ -6,7 +6,7 @@ export const ContainerCards = () => {
       <CardBoyfriend
         image="https://i.ibb.co/KKTrmXx/Whats-App-Image-2022-12-01-at-8-48-06-PM.jpg"
         name="Pablo Rodríguez"
-        phrase="Hoy con gran emoción, puedo decir que tendré la mujer más hermosa y valiosa de todas como compañera de vida, gracias a Dios, ella me dio un si como respuesta y aquí estamos, aquí empieza otra etapa de nuestra hermosa historia"
+        phrase="Hoy con gran emoción, puedo decir que tendré la mujer más hermosa y valiosa de todas como compañera de vida, gracias a Dios, ella me dio un si como respuesta y aquí estamos dispuestos a iniciar otra etapa de nuestra hermosa historia"
       />
       <img className="humo left" src={Smoke} alt="" />
       <CardBoyfriend

@@ -33,13 +33,12 @@ export const ParentsInfo = () => {
               De la Novia
             </p>
           </div>
-          <div className="voltear">
-            <CardParent
-              names="Oscar & Carolina Rodríguez"
-              phrase="En estos momentos que te vas a unir con el gran amor de tu vida , como padres sentimos en nuestro corazón un mar de emociones, nos sentimos felices porque sabemos que eres un gran ser humano y que serás un maravilloso esposo, deseamos que tu hogar esté lleno de muchas bendiciones, Te amamos"
-              image="https://i.postimg.cc/gkVXW8J1/Whats-App-Image-2022-12-13-at-9-37-17-AM.jpg"
-            />
-          </div>
+
+          <CardParent
+            names="Oscar & Carolina Rodríguez"
+            phrase="En estos momentos que te vas a unir con el gran amor de tu vida , como padres sentimos en nuestro corazón un mar de emociones, nos sentimos felices porque sabemos que eres un gran ser humano y que serás un maravilloso esposo, deseamos que tu hogar esté lleno de muchas bendiciones, Te amamos"
+            image="https://i.postimg.cc/TYZK35j5/Whats-App-Image-2022-12-20-at-12-03-18-PM.jpg"
+          />
         </>
       )}
       {parentState == 2 && (

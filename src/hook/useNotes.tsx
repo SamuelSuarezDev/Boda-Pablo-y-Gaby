@@ -25,8 +25,19 @@ export const updateItem = async ({ id, obj }: any) => {
   await updateDoc(doc(colRef, id), obj);
 };
 
-export const getItemsByCondition = async (value?: any) => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
+export const getItemsByCondition = async () => {
+  /*  db.collection("message")
+    .get()
+    .then((docs) => {
+      return docs.map((doc) => {
+        const data = doc.data();
+        const id = doc.id;
+        return {
+          ...data,
+          id,
+        };
+      });
+    }); */
 };
 
 // DELETE

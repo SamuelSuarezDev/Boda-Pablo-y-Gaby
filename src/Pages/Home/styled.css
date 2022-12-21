@@ -63,6 +63,7 @@ body {
 .subtitle {
   width: 80%;
   font-size: 18px;
+  font-family: "Inria Serif";
 }
 .cards-container {
   width: 100vw;
