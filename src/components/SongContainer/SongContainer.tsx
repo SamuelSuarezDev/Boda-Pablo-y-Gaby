@@ -7,7 +7,7 @@ export const SongContainer = () => {
     <div className="song-container">
       <img src={Logo} alt="" />
       <p className="title">Nuestra canción</p>
-      <p className="subtitle">Dale play a nuestra cancion</p>
+      <p className="subtitle">Dale play a nuestra canción</p>
       <Player />
     </div>
   );

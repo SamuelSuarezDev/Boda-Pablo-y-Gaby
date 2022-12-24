@@ -20,7 +20,7 @@ export const ParentsInfo = () => {
               }}
               className="active"
             >
-              Del novio
+              Del Novio
             </p>
             <p
               onClick={() => {
@@ -33,11 +33,11 @@ export const ParentsInfo = () => {
               De la Novia
             </p>
           </div>
-            <CardParent
-              names="Oscar & Carolina Rodríguez"
-              phrase="En estos momentos que te vas a unir con el gran amor de tu vida , como padres sentimos en nuestro corazón un mar de emociones, nos sentimos felices porque sabemos que eres un gran ser humano y que serás un maravilloso esposo, deseamos que tu hogar esté lleno de muchas bendiciones, Te amamos"
-              image="https://i.postimg.cc/TYZK35j5/Whats-App-Image-2022-12-20-at-12-03-18-PM.jpg"
-            />
+          <CardParent
+            names="Oscar & Carolina Rodríguez"
+            phrase="En estos momentos que te vas a unir con el gran amor de tu vida, como padres sentimos en nuestro corazón un mar de emociones, nos sentimos felices porque sabemos que eres un gran ser humano y que serás un maravilloso esposo, deseamos que tu hogar esté lleno de muchas bendiciones, Te amamos."
+            image="https://i.postimg.cc/TYZK35j5/Whats-App-Image-2022-12-20-at-12-03-18-PM.jpg"
+          />
         </>
       )}
       {parentState == 2 && (
@@ -51,7 +51,7 @@ export const ParentsInfo = () => {
               }}
               className="inactive"
             >
-              Del novio
+              Del Novio
             </p>
             <p
               onClick={() => {
@@ -66,9 +66,7 @@ export const ParentsInfo = () => {
           </div>
           <CardParent
             names="Lorenzo & Marcela González"
-            phrase="Entendemos que te vas , e inicias una nueva vida con quien te hace feliz y dibuja una sonrisa en tu rostro con tan solo una mirada ,es hora de soltar tu mano y que construyas tu propio camino , junto al hombre que te acompañará en esta maravillosa historia de amor. Que esta nueva etapa sea bendecida , oramos que esta unión sea para toda la vida .
-
-"
+            phrase="Entendemos que te vas, e inicias una nueva vida con quien te hace feliz y dibuja una sonrisa en tu rostro con tan solo una mirada, es hora de soltar tu mano y que construyas tu propio camino, junto al hombre que te acompañará en esta maravillosa historia de amor. Que esta nueva etapa sea bendecida, oramos que esta unión sea para toda la vida."
             image="https://i.ibb.co/yhCwHMr/c080540e-bfd0-43b5-87b6-eae8e4a47308.jpg"
           />
         </>

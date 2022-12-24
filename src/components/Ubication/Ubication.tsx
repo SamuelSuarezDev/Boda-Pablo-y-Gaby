@@ -18,7 +18,7 @@ export const Ubication = ({ iconButton }: any) => {
         Hacienda Alex Rodríguez
       </p>
       <p style={{ margin: "0 0 15px", width: "80%" }}>
-        Vereda Canelon, Via Puente Peralta #6 - 238, Cajicá, Cundinamarca
+        Vereda Canelón, Via Puente Peralta #6 - 238, Cajicá, Cundinamarca
       </p>
       <Button text="Ver Ubicación" onClick={maps} icon={iconButton} />
     </div>
